@@ -14,7 +14,7 @@ export default tseslint.config(
       globals: globals.browser,
       parser: tseslint.parser,
       parserOptions: {
-        project: true,
+        project: './Website Demo/project/tsconfig.json',
         sourceType: 'module',
       },
     },
